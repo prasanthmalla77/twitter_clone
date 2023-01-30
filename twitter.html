@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter Clone - Final</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- sidebar starts -->
+    <div class="sidebar">
+      <i class="fab fa-twitter"></i>
+      <div class="sidebarOption active">
+        <span class="material-icons"> home </span>
+        <h2>Home</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> search </span>
+        <h2>Explore</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> notifications_none </span>
+        <h2>Notifications</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> mail_outline </span>
+        <h2>Messages</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> bookmark_border </span>
+        <h2>Bookmarks</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> list_alt </span>
+        <h2>Lists</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> perm_identity </span>
+        <h2>Profile</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> more_horiz </span>
+        <h2>More</h2>
+      </div>
+      <button class="sidebar__tweet">Tweet</button>
+    </div>
+    <!-- sidebar ends -->
+
+    <!-- feed starts -->
+    <div class="feed">
+      <div class="feed__header">
+        <h2>Home</h2>
+      </div>
+
+      <!-- tweetbox starts -->
+      <div class="tweetBox">
+        <form>
+          <div class="tweetbox__input">
+            <img
+              src="prasanth.jpg"
+              alt=""
+            />
+            <input type="text" placeholder="What's happening?" />
+          </div>
+          <button class="tweetBox__tweetButton">Tweet</button>
+        </form>
+      </div>
+      <!-- tweetbox ends -->
+
+      <!-- post starts -->
+      <div class="post">
+        <div class="post__avatar">
+          <img
+            src="prasu2.jpg"
+            alt=""
+          />
+        </div>
+
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headerText">
+              <h3>
+                MALLA NAGA VENKATA PRASANTH NAIDU
+                <span class="post__headerSpecial"
+                  ><span class="material-icons post__badge"> verified </span>@prasanth33</span
+                >
+              </h3>
+            </div>
+            <div class="post__headerDescription">
+              <p>When you need something, dont depend on someone... <br>dont deppend on someone one day you will definitely get it </p>
+            </div>
+          </div>
+          <video src="dasara.mp4" controls></video>
+          <div class="post__footer">
+            <span class="material-icons"> repeat </span>
+            <span class="material-icons"> favorite_border </span>
+            <span class="material-icons"> publish </span>
+          </div>
+        </div>
+      </div>
+      <!-- post ends -->
+      <!-- post starts -->
+      <div class="post">
+        <div class="post__avatar">
+          <img
+            src="basha.jpg"
+            alt=""
+          />
+        </div>
+
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headerText">
+              <h3>
+                SHAIK VALI BASHA
+                <span class="post__headerSpecial"
+                  ><span class="material-icons post__badge"> verified </span>@BASHA57</span
+                >
+              </h3>
+            </div>
+            <div class="post__headerDescription">
+              <p> Agar tujh mein himmat ho ki hazar log tumhare peeche khade hai…<br> toh tum sirf ek jung jeetoge … </BR> magar hazar logon ne himmat jutta li ki tum samne khade ho… toh tum poori duniya jeet jaaoge</p>
+            </div>
+          </div>
+         <video src="basha kgf.mp4" controls></video>
+          <div class="post__footer">
+            <span class="material-icons"> repeat </span>
+            <span class="material-icons"> favorite_border </span>
+            <span class="material-icons"> publish </span>
+          </div>
+        </div>
+      </div>
+      <!-- post ends -->
+      <!-- post starts -->
+      <div class="post">
+        <div class="post__avatar">
+          <img
+            src="harshitha.jpg"
+            alt=""
+          />
+        </div>
+
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headerText">
+              <h3>
+                BINDU HARSHITHA
+                <span class="post__headerSpecial"
+                  ><span class="material-icons post__badge"> verified </span>@harshitha54</span
+                >
+              </h3>
+            </div>
+            <div class="post__headerDescription">
+              <p>“I will pay to watch MS Dhoni bat. Dhoni is not the next Gilchrist. <br> He’s the first MS Dhoni.”  </p>
+            </div>
+          </div>
+          <video src="harshitha dhonni.mp4" controls></video>
+          <div class="post__footer">
+            <span class="material-icons"> repeat </span>
+            <span class="material-icons"> favorite_border </span>
+            <span class="material-icons"> publish </span>
+          </div>
+        </div>
+      </div>
+      <!-- post ends -->
+      
+    </div>
+    <!-- feed ends -->
+
+    <!-- widgets starts -->
+    <div class="widgets">
+      <div class="widgets__input">
+        <span class="material-icons widgets__searchIcon"> search </span>
+        <input type="text" placeholder="Search Twitter" />
+      </div>
+
+      <div class="widgets__widgetContainer">
+        <h2>What's happening?</h2>
+        <blockquote class="twitter-tweet">
+          <p lang="en" dir="ltr">
+            twitter clone
+            <img src="prasanth.jpg" alt="" width="100%" style="border-radius: 50px;">
+            <a href="https://twitter.com/Prasanthcherr20" >@Prasanthcherr20</a>.
+            
+            <a href="https://twitter.com/hashtag/Replit100DaysOfCode?src=hashtag_click"
+              >#prasu</a>
+            
+          </p>
+         
+         
+        </blockquote>
+        
+      </div>
+    </div>
+    <!-- widgets ends -->
+  </body>
+</html>
