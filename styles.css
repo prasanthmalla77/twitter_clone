@@ -13,8 +13,11 @@
     display: flex;
     align-items: center;
     cursor: pointer;
+     
   }
-  
+  .sidebarOption .a{ text-decoration:"None";
+      font-color:"skyblue";
+}
   .sidebarOption .material-icons,
   .fa-twitter {
     padding: 20px;
